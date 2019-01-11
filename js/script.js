@@ -26,13 +26,7 @@
         var st = $(this).scrollTop();
 
         // Make sure they scroll more than delta
-        if(Math.abs(lastScrollTop - st) <= delta) {
-            return;
-        }
-
-        // If they scrolled down and are past the navbar, add class .navbar-down.
-        // This is necessary so you never see what is "behind" the navbar.
-        if (st > lastScrollTop && st > navbarHeight) {
+        if(Math.abs(lastScrollTop - st) <= delta)="" {="" return;="" }="" if="" they="" scrolled="" down="" and="" are="" past="" the="" navbar,="" add="" class="" .navbar-down.="" this="" is="" necessary="" so="" you="" never="" see="" what="" "behind"="" navbar.="" (st=""> lastScrollTop && st > navbarHeight) {
             var posY = Math.min(st, navbarHeight);
             // Scroll Down
             $('.navbar-main').css({
@@ -79,4 +73,4 @@
             $(this).text(moment($(this).attr('datetime')).fromNow());
         });
     }
-})(jQuery);
+})(jQuery);</=>

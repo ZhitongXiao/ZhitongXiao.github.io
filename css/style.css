@@ -78,17 +78,7 @@ a.tag.article-tag {
   .article .article-nav .article-nav-prev a:before {
     top: 0;
     left: 0;
-    content: '<';
-    position: absolute; }
-
-.article .article-nav .article-nav-next {
-  text-align: right; }
-  .article .article-nav .article-nav-next a {
-    padding-right: 1rem; }
-    .article .article-nav .article-nav-next a:after {
-      top: 0;
-      right: 0;
-      content: '>';
+    content: '<'; position:="" absolute;="" }="" .article="" .article-nav="" .article-nav-next="" {="" text-align:="" right;="" a="" padding-right:="" 1rem;="" a:after="" top:="" 0;="" right:="" content:="" '="">';
       position: absolute; }
 
 @media screen and (max-width: 768px) {
@@ -368,14 +358,7 @@ figure.highlight {
     .pagination .pagination-previous a:before {
       top: 0;
       left: 0;
-      content: '<';
-      position: absolute; }
-  .pagination .pagination-next a {
-    padding-right: 1rem; }
-    .pagination .pagination-next a:after {
-      top: 0;
-      right: 0;
-      content: '>';
+      content: '<'; position:="" absolute;="" }="" .pagination="" .pagination-next="" a="" {="" padding-right:="" 1rem;="" a:after="" top:="" 0;="" right:="" content:="" '="">';
       position: absolute; }
 
 .section-heading {
@@ -465,3 +448,4 @@ figure.highlight {
 .ins-section .ins-search-item:hover .ins-search-preview,
 .ins-section .ins-search-item.active .ins-search-preview {
   color: #fff; }
+</';></';>
